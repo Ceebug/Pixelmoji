@@ -1,6 +1,8 @@
-# <img src="./logo-wide.png" width:50%>
-
-**Proper emoji support for Minecraft.**
+<h2 align="center">
+  <img src="./logo-wide.png" width="60%">
+  <br>
+  <strong>Proper emoji support for Minecraft</strong>
+</h2>
 
 Pixelmoji adds colourful, pixel-art emoji to Minecraft using a custom font and the [Glomphosche](https://modrinth.com/mod/glomphosche) library.
 
