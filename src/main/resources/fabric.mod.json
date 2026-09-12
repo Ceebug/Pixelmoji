@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "pixelmoji",
+	"version": "${version}",
+	"name": "Pixelmoji",
+	"description": "Proper emoji support for Minecraft.",
+	"authors": [
+		"Ceebug"
+	],
+	"contact": {
+		"sources": "https://github.com/ceebug/pixelmoji"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pixelmoji/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.pixelmoji.client.PixelmojiClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "pixelmoji.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*",
+		"glomphosche": "0.2.1"
+	}
+}
+

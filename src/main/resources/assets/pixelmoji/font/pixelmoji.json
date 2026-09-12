@@ -1,0 +1,157 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/skull_and_crossbones.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "☠"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/skull.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💀"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/loudly_crying.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😭"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_smile_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😊"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😀"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_big_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_smile_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/beaming_smile_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😁"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_squinting.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😆"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_sweat.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😅"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/tears_of_joy.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😂"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/rolling_laughing.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤣"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🙂"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_upsidedown.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🙃"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/melting.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🫠"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/winking.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😉"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_halo.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😇"
+            ]
+        }
+    ]
+}

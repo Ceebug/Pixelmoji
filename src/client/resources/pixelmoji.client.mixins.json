@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.pixelmoji.client.mixin",
+	"client": [
+		"EditBoxMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
