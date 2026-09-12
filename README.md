@@ -32,9 +32,9 @@ Pixelmoji adds colourful, pixel-art emoji to Minecraft using a custom font and t
 4. Place the Pixelmoji `.jar` in your `mods` folder.
 5. Launch Minecraft.
 
-> ![NOTE]
+> [!NOTE]
 > **Pixelmoji is *Client-side***
-> This means that Pixelmoji does not need to exist on the server to run, and you can join any server with the mod enabled
+> This means that Pixelmoji does not need to exist on the server to run, and you can join any server with the mod enabled.
 
 ## Development
 
