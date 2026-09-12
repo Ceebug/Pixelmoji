@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="./logo-wide.png" width="60%">
+  <img src="./logo-wide.png" width="80%">
   <br>
   <strong>Proper emoji support for Minecraft</strong>
 </h2>
