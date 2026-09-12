@@ -61,7 +61,7 @@ To launch the development client, use the command:
 ## Supported emojis
 Pixelmoji does not yet have textures for all emojis that exist.
 
-If you would like to view the supported emojis, you can see them in the file:
+If you would like to view the supported emojis, you can see them in the file:<br>
 [`supported-emojis.md`](./supported-emojis.md)
 
 
