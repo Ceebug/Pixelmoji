@@ -38,7 +38,7 @@ Pixelmoji adds colourful, pixel-art emoji to Minecraft using a custom font and t
 
 ## Development
 
-Pixelmoji is built using **Fabric Loom** and Gradle.
+Pixelmoji is built using Fabric Loom and Gradle.
 
 ### Getting started
 Clone the repository:
