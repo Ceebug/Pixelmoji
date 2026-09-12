@@ -1,4 +1,4 @@
-# ![Pixelmoji](./logo-wide.png)
+# <img src="./logo-wide.png" width:50%>
 
 **Proper emoji support for Minecraft.**
 
