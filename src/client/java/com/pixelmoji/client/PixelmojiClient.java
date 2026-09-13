@@ -36,7 +36,7 @@ public class PixelmojiClient implements ClientModInitializer {
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F619).fontOverride(pixelmojiFont); // 😙
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F61A).fontOverride(pixelmojiFont); // 😚
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F972).fontOverride(pixelmojiFont); // 🥲
-		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F924).fontOverride(pixelmojiFont); // 🤤
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F60B).fontOverride(pixelmojiFont); // 😋
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F61B).fontOverride(pixelmojiFont); // 😛
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F92A).fontOverride(pixelmojiFont); // 🤪
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F61C).fontOverride(pixelmojiFont); // 😜

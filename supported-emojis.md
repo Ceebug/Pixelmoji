@@ -10,7 +10,7 @@
 - `😙` Kissing face with smiling eyes
 - `😚` Kissing face with closed eyes
 - `🥲` Smiling face with tear
-- `🤤` Drooling face
+- `😋` Face savoring food
 - `😛` Face with tongue
 - `🤪` Zany face
 - `😜` Winking face with tongue
