@@ -29,6 +29,15 @@
         },
         {
             "type": "bitmap",
+            "file": "pixelmoji:font/face/dizzy.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😵"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "pixelmoji:font/face/smile_smile_eyes.png",
             "height": 8,
             "ascent": 7,
@@ -38,11 +47,137 @@
         },
         {
             "type": "bitmap",
+            "file": "pixelmoji:font/face/kiss_heart.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😘"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/kiss.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😗"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/kiss_smile_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😙"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/kiss_closed_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😚"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_tear.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🥲"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/yummyfood.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤤"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/tongue.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😛"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/zany.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤪"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/tongue_winking.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😜"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/tongue_squinting.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😝"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/money.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤑"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_heart_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😍"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_smile_eyes_hearts.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🥰"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "pixelmoji:font/face/grinning.png",
             "height": 8,
             "ascent": 7,
             "chars": [
                 "😀"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/grinning_star_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤩"
             ]
         },
         {

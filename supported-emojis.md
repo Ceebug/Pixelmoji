@@ -3,8 +3,23 @@
 - `☠️` Skull and crossbones
 - `💀` Skull
 - `😭` Loudly crying face
+- `😵` Dizzy face
 - `😊` Smiling face with smiling eyes
+- `😘` Face blowing a kiss
+- `😗` Kissing face
+- `😙` Kissing face with smiling eyes
+- `😚` Kissing face with closed eyes
+- `🥲` Smiling face with tear
+- `🤤` Drooling face
+- `😛` Face with tongue
+- `🤪` Zany face
+- `😜` Winking face with tongue
+- `😝` Squinting face with tongue
+- `🤑` Money-mouth face
+- `😍` Smiling face with heart-eyes
+- `🥰` Smiling face with hearts
 - `😀` Grinning face
+- `🤩` Star-struck
 - `😃` Grinning face with big eyes
 - `😄` Grinning face with smiling eyes
 - `😁` Beaming face with smiling eyes
