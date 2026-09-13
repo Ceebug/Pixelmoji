@@ -2,6 +2,39 @@
 
 - `☠️` Skull and crossbones
 - `💀` Skull
+- `❤️` Red heart
+- `🧡` Orange heart
+- `💛` Yellow heart
+- `💚` Green heart
+- `💙` Blue heart
+- `🩵` Light blue heart
+- `💜` Purple heart
+- `🩷` Pink heart
+- `🤎` Brown heart
+- `🖤` Black heart
+- `🩶` Grey heart
+- `🤍` White heart
+- `💔` Broken heart
+- `🟥` Red square
+- `🟧` Orange square
+- `🟨` Yellow square
+- `🟩` Green square
+- `🟦` Blue square
+- `🟪` Purple square
+- `🟫` Brown square
+- `⬛` Black square
+- `⬜` White square
+- `🔲` Black square button
+- `🔳` White square button
+- `🔴` Red circle
+- `🟠` Orange circle
+- `🟡` Yellow circle
+- `🟢` Green circle
+- `🔵` Blue circle
+- `🟣` Purple circle
+- `🟤` Brown circle
+- `⚫` Black circle
+- `⚪` White circle
 - `😭` Loudly crying face
 - `😵` Dizzy face
 - `😊` Smiling face with smiling eyes

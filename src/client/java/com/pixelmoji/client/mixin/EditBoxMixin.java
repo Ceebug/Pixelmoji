@@ -11,7 +11,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class EditBoxMixin {
 
     private static final String[] SPECIAL_SEQUENCES = {
-        "\u2620\uFE0F"
+        "\u2620\uFE0F",
+        "\u2764\uFE0F"
     };
 
     @Shadow

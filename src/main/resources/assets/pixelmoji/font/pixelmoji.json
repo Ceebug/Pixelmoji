@@ -20,6 +20,303 @@
         },
         {
             "type": "bitmap",
+            "file": "pixelmoji:font/heart/red.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "❤️"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/orange.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🧡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/red.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🔴"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/orange.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟠"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/yellow.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟡"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/green.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟢"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/blue.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🔵"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/purple.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟣"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/brown.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟤"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/black.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "⚫"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/circle/white.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "⚪"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/yellow.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💛"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/green.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💚"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/blue.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💙"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/lblue.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🩵"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/purple.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💜"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/pink.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🩷"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/brown.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤎"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/black.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🖤"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/grey.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🩶"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/white.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤍"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/broken.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💔"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/red.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟥"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/orange.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟧"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/yellow.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟨"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/green.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟩"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/blue.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟦"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/purple.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟪"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/brown.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🟫"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/black.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "⬛"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/white.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "⬜"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/black_white_outline.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🔳"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/square/white_black_outline.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🔲"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "pixelmoji:font/face/loudly_crying.png",
             "height": 8,
             "ascent": 7,
