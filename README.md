@@ -44,7 +44,7 @@ Pixelmoji is built using Fabric Loom and Gradle.
 
 ### Getting started
 Clone the repository:
-```powershell
+```bash
 git clone https://github.com/ceebug/pixelmoji.git pixelmoji
 ```
 
@@ -54,7 +54,7 @@ Happy coding!
 
 ### Launching the development client
 To launch the development client, use the command:
-```powershell
+```bash
 .\gradlew.bat runClient
 ```
 
