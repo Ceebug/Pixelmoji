@@ -29,6 +29,42 @@
         },
         {
             "type": "bitmap",
+            "file": "pixelmoji:font/star.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "⭐"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/star_glowing.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🌟"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/star_dizzy.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💫"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/star_shooting.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🌠"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "pixelmoji:font/heart/orange.png",
             "height": 8,
             "ascent": 7,
@@ -457,6 +493,15 @@
             "ascent": 7,
             "chars": [
                 "🥰"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/face/smile_smile_eyes_hands.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🤗"
             ]
         },
         {

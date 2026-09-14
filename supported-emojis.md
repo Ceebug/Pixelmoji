@@ -26,6 +26,10 @@
 - `⬜` White square
 - `🔲` Black square button
 - `🔳` White square button
+- `⭐` Star
+- `🌟` Glowing star
+- `💫` Dizzy star
+- `🌠` Shooting star
 - `🔴` Red circle
 - `🟠` Orange circle
 - `🟡` Yellow circle
@@ -51,6 +55,7 @@
 - `🤑` Money-mouth face
 - `😍` Smiling face with heart-eyes
 - `🥰` Smiling face with hearts
+- `🤗` Hugging face
 - `😀` Grinning face
 - `🤩` Star-struck
 - `😃` Grinning face with big eyes

@@ -7,3 +7,6 @@
 # These are Windows script files and should use crlf
 *.bat           text eol=crlf
 
+# This is the supported emojis file and should never EVER be in an encoding that is not UTF-8, or the file completely breaks
+supported-emojis.md text eol=lf encoding=utf-8
+
