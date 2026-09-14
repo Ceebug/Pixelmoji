@@ -32,6 +32,24 @@ public class PixelmojiClient implements ClientModInitializer {
 				.withDiscrete(0x2764) // ❤
 				.withDiscrete(0xFE0F) // variation selector
 				.fontOverride(pixelmojiFont);
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x2764) // ❤
+				.withDiscrete(0xFE0F) // variation selector
+				.withDiscrete(0x200D) // ZWJ
+				.withDiscrete(0x1F525) // 🔥
+				.fontOverride(pixelmojiFont); // ❤️‍🔥
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x2764) // ❤
+				.withDiscrete(0xFE0F) // variation selector
+				.withDiscrete(0x200D) // ZWJ
+				.withDiscrete(0x1FA79) // 🩹
+				.fontOverride(pixelmojiFont); // ❤️‍🩹
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F497).fontOverride(pixelmojiFont); // 💗
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F496).fontOverride(pixelmojiFont); // 💖
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49D).fontOverride(pixelmojiFont); // 💝
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F48C).fontOverride(pixelmojiFont); // 💌
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F498).fontOverride(pixelmojiFont); // 💘
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x2763).fontOverride(pixelmojiFont); // ❣
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F9E1).fontOverride(pixelmojiFont); // 🧡
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49B).fontOverride(pixelmojiFont); // 💛
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49A).fontOverride(pixelmojiFont); // 💚

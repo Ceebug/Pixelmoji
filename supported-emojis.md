@@ -15,6 +15,14 @@
 - `🩶` Grey heart
 - `🤍` White heart
 - `💔` Broken heart
+- `❤️‍🔥` Heart on fire
+- `❤️‍🩹` Mending heart
+- `💗` Growing heart
+- `💖` Sparkling heart
+- `💝` Heart with ribbon
+- `💌` Love letter
+- `💘` Heart with arrow
+- `❣️` Heart exclamation
 - `🟥` Red square
 - `🟧` Orange square
 - `🟨` Yellow square

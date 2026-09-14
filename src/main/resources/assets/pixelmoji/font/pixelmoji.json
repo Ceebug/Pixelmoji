@@ -29,6 +29,78 @@
         },
         {
             "type": "bitmap",
+            "file": "pixelmoji:font/heart/onfire.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "❤️‍🔥"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/mending.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "❤️‍🩹"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/growing.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💗"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/shimmer.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💖"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/present.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💝"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/letter.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💌"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/arrow.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "💘"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:font/heart/exclamation.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "❣️"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "pixelmoji:font/star.png",
             "height": 8,
             "ascent": 7,
