@@ -36,7 +36,7 @@ Pixelmoji adds colourful, pixel-art emoji to Minecraft using a custom font and t
 
 > [!NOTE]
 > **Pixelmoji is *Client-side***<br>
-> This means that Pixelmoji does not need to exist on the server to run, and you can join any server with the mod enabled.
+> This means that Pixelmoji does not need to exist on the server to run, and you can join any server with the mod enabled. (Assuming that the server allows the mod)
 
 ## Development
 
