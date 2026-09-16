@@ -1,5 +1,10 @@
 # Supported Emojis
 
+> [!IMPORTANT]
+> **The emoji icons shown below are not the textures used in-game.**
+>
+> Their appearance is determined by your device's system emoji font and may look different depending on your device or operating system. Pixelmoji uses its own custom textures for these emojis in-game.
+
 - `☠️` Skull and crossbones
 - `💀` Skull
 - `❤️` Red heart
