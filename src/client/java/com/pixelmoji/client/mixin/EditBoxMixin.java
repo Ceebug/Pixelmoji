@@ -12,7 +12,10 @@ public abstract class EditBoxMixin {
 
     private static final String[] SPECIAL_SEQUENCES = {
         "\u2620\uFE0F",
-        "\u2764\uFE0F"
+        "\u2764\uFE0F\u200D\uD83D\uDD25",
+        "\u2764\uFE0F\u200D\uD83E\uDE79",
+        "\u2764\uFE0F",
+        "\u2763\uFE0F"
     };
 
     @Shadow

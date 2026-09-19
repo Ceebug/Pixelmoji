@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/skull_and_crossbones.png",
+            "file": "pixelmoji:skull_and_crossbones.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -11,7 +11,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/skull.png",
+            "file": "pixelmoji:skull.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -20,34 +20,34 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/red.png",
+            "file": "pixelmoji:heart/red.png",
             "height": 8,
             "ascent": 7,
             "chars": [
-                "❤️"
+                "\uE000"
             ]
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/onfire.png",
+            "file": "pixelmoji:heart/onfire.png",
             "height": 8,
             "ascent": 7,
             "chars": [
-                "❤️‍🔥"
+                "\uE001"
             ]
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/mending.png",
+            "file": "pixelmoji:heart/mending.png",
             "height": 8,
             "ascent": 7,
             "chars": [
-                "❤️‍🩹"
+                "\uE002"
             ]
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/growing.png",
+            "file": "pixelmoji:heart/growing.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -56,7 +56,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/shimmer.png",
+            "file": "pixelmoji:heart/shimmer.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -65,7 +65,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/present.png",
+            "file": "pixelmoji:heart/present.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -74,7 +74,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/letter.png",
+            "file": "pixelmoji:heart/letter.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -83,7 +83,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/arrow.png",
+            "file": "pixelmoji:heart/arrow.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -92,16 +92,16 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/exclamation.png",
+            "file": "pixelmoji:heart/exclamation.png",
             "height": 8,
             "ascent": 7,
             "chars": [
-                "❣️"
+                "❣"
             ]
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/star.png",
+            "file": "pixelmoji:star.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -110,7 +110,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/star_glowing.png",
+            "file": "pixelmoji:star_glowing.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -119,7 +119,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/star_dizzy.png",
+            "file": "pixelmoji:star_dizzy.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -128,7 +128,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/star_shooting.png",
+            "file": "pixelmoji:star_shooting.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -137,7 +137,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/orange.png",
+            "file": "pixelmoji:heart/orange.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -146,7 +146,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/red.png",
+            "file": "pixelmoji:circle/red.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -155,7 +155,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/orange.png",
+            "file": "pixelmoji:circle/orange.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -164,7 +164,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/yellow.png",
+            "file": "pixelmoji:circle/yellow.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -173,7 +173,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/green.png",
+            "file": "pixelmoji:circle/green.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -182,7 +182,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/blue.png",
+            "file": "pixelmoji:circle/blue.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -191,7 +191,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/purple.png",
+            "file": "pixelmoji:circle/purple.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -200,7 +200,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/brown.png",
+            "file": "pixelmoji:circle/brown.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -209,7 +209,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/black.png",
+            "file": "pixelmoji:circle/black.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -218,7 +218,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/circle/white.png",
+            "file": "pixelmoji:circle/white.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -227,7 +227,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/yellow.png",
+            "file": "pixelmoji:heart/yellow.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -236,7 +236,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/green.png",
+            "file": "pixelmoji:heart/green.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -245,7 +245,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/blue.png",
+            "file": "pixelmoji:heart/blue.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -254,7 +254,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/lblue.png",
+            "file": "pixelmoji:heart/lblue.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -263,7 +263,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/purple.png",
+            "file": "pixelmoji:heart/purple.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -272,7 +272,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/pink.png",
+            "file": "pixelmoji:heart/pink.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -281,7 +281,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/brown.png",
+            "file": "pixelmoji:heart/brown.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -290,7 +290,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/black.png",
+            "file": "pixelmoji:heart/black.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -299,7 +299,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/grey.png",
+            "file": "pixelmoji:heart/grey.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -308,7 +308,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/white.png",
+            "file": "pixelmoji:heart/white.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -317,7 +317,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/heart/broken.png",
+            "file": "pixelmoji:heart/broken.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -326,7 +326,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/red.png",
+            "file": "pixelmoji:square/red.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -335,7 +335,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/orange.png",
+            "file": "pixelmoji:square/orange.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -344,7 +344,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/yellow.png",
+            "file": "pixelmoji:square/yellow.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -353,7 +353,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/green.png",
+            "file": "pixelmoji:square/green.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -362,7 +362,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/blue.png",
+            "file": "pixelmoji:square/blue.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -371,7 +371,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/purple.png",
+            "file": "pixelmoji:square/purple.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -380,7 +380,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/brown.png",
+            "file": "pixelmoji:square/brown.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -389,7 +389,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/black.png",
+            "file": "pixelmoji:square/black.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -398,7 +398,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/white.png",
+            "file": "pixelmoji:square/white.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -407,7 +407,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/black_white_outline.png",
+            "file": "pixelmoji:square/black_white_outline.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -416,7 +416,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/square/white_black_outline.png",
+            "file": "pixelmoji:square/white_black_outline.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -425,7 +425,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/loudly_crying.png",
+            "file": "pixelmoji:face/loudly_crying.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -434,7 +434,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/dizzy.png",
+            "file": "pixelmoji:face/dizzy.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -443,7 +443,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_smile_eyes.png",
+            "file": "pixelmoji:face/smile_smile_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -452,7 +452,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/kiss_heart.png",
+            "file": "pixelmoji:face/kiss_heart.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -461,7 +461,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/kiss.png",
+            "file": "pixelmoji:face/kiss.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -470,7 +470,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/kiss_smile_eyes.png",
+            "file": "pixelmoji:face/kiss_smile_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -479,7 +479,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/kiss_closed_eyes.png",
+            "file": "pixelmoji:face/kiss_closed_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -488,7 +488,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_tear.png",
+            "file": "pixelmoji:face/smile_tear.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -497,7 +497,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/yummyfood.png",
+            "file": "pixelmoji:face/yummyfood.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -506,7 +506,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/tongue.png",
+            "file": "pixelmoji:face/tongue.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -515,7 +515,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/zany.png",
+            "file": "pixelmoji:face/zany.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -524,7 +524,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/tongue_winking.png",
+            "file": "pixelmoji:face/tongue_winking.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -533,7 +533,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/tongue_squinting.png",
+            "file": "pixelmoji:face/tongue_squinting.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -542,7 +542,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/money.png",
+            "file": "pixelmoji:face/money.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -551,7 +551,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_heart_eyes.png",
+            "file": "pixelmoji:face/grinning_heart_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -560,7 +560,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_smile_eyes_hearts.png",
+            "file": "pixelmoji:face/smile_smile_eyes_hearts.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -569,7 +569,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_smile_eyes_hands.png",
+            "file": "pixelmoji:face/smile_smile_eyes_hands.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -578,7 +578,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning.png",
+            "file": "pixelmoji:face/grinning.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -587,7 +587,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_star_eyes.png",
+            "file": "pixelmoji:face/grinning_star_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -596,7 +596,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_big_eyes.png",
+            "file": "pixelmoji:face/grinning_big_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -605,7 +605,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_smile_eyes.png",
+            "file": "pixelmoji:face/grinning_smile_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -614,7 +614,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/beaming_smile_eyes.png",
+            "file": "pixelmoji:face/beaming_smile_eyes.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -623,7 +623,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_squinting.png",
+            "file": "pixelmoji:face/grinning_squinting.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -632,7 +632,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/grinning_sweat.png",
+            "file": "pixelmoji:face/grinning_sweat.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -641,7 +641,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/tears_of_joy.png",
+            "file": "pixelmoji:face/tears_of_joy.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -650,7 +650,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/rolling_laughing.png",
+            "file": "pixelmoji:face/rolling_laughing.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -659,7 +659,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile.png",
+            "file": "pixelmoji:face/smile.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -668,7 +668,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_upsidedown.png",
+            "file": "pixelmoji:face/smile_upsidedown.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -677,7 +677,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/melting.png",
+            "file": "pixelmoji:face/melting.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -686,7 +686,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/winking.png",
+            "file": "pixelmoji:face/winking.png",
             "height": 8,
             "ascent": 7,
             "chars": [
@@ -695,7 +695,7 @@
         },
         {
             "type": "bitmap",
-            "file": "pixelmoji:font/face/smile_halo.png",
+            "file": "pixelmoji:face/smile_halo.png",
             "height": 8,
             "ascent": 7,
             "chars": [

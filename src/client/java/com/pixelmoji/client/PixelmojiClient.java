@@ -1,8 +1,14 @@
 package com.pixelmoji.client;
 
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.FontDescription;
+import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +25,19 @@ public class PixelmojiClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		ResourceManagerHelper.registerBuiltinResourcePack(
+				id("pixelmoji"),
+				FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+				Component.literal("Pixelmoji"),
+				ResourcePackActivationType.ALWAYS_ENABLED
+		);
+		ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> dispatcher.register(
+				ClientCommandManager.literal("testemojis").executes(context -> {
+					context.getSource().sendFeedback(EmojiCatalog.asComponent());
+					return 1;
+				})
+		));
+
 		LOGGER.info("[Pixelmoji] Loading emojis...");
 		FontDescription.Resource pixelmojiFont = new FontDescription.Resource(id("pixelmoji"));
 
@@ -26,30 +45,35 @@ public class PixelmojiClient implements ClientModInitializer {
 				.withDiscrete('\u2620') // ☠️
 				.withDiscrete('\uFE0F') // variation selector
 				.fontOverride(pixelmojiFont);
-
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F480).fontOverride(pixelmojiFont); // 💀
-		GlomphoscheImpl.LOOKUP
-				.withDiscrete(0x2764) // ❤
-				.withDiscrete(0xFE0F) // variation selector
-				.fontOverride(pixelmojiFont);
 		GlomphoscheImpl.LOOKUP
 				.withDiscrete(0x2764) // ❤
 				.withDiscrete(0xFE0F) // variation selector
 				.withDiscrete(0x200D) // ZWJ
 				.withDiscrete(0x1F525) // 🔥
+				.codepointOverride(0xE001)
 				.fontOverride(pixelmojiFont); // ❤️‍🔥
 		GlomphoscheImpl.LOOKUP
 				.withDiscrete(0x2764) // ❤
 				.withDiscrete(0xFE0F) // variation selector
 				.withDiscrete(0x200D) // ZWJ
 				.withDiscrete(0x1FA79) // 🩹
+				.codepointOverride(0xE002)
 				.fontOverride(pixelmojiFont); // ❤️‍🩹
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x2764) // ❤
+				.withDiscrete(0xFE0F) // variation selector
+				.codepointOverride(0xE000)
+				.fontOverride(pixelmojiFont); // ❤️
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F497).fontOverride(pixelmojiFont); // 💗
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F496).fontOverride(pixelmojiFont); // 💖
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49D).fontOverride(pixelmojiFont); // 💝
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F48C).fontOverride(pixelmojiFont); // 💌
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F498).fontOverride(pixelmojiFont); // 💘
-		GlomphoscheImpl.LOOKUP.withDiscrete(0x2763).fontOverride(pixelmojiFont); // ❣
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x2763) // ❣
+				.withDiscrete(0xFE0F) // variation selector
+				.fontOverride(pixelmojiFont); // ❣️
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F9E1).fontOverride(pixelmojiFont); // 🧡
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49B).fontOverride(pixelmojiFont); // 💛
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F49A).fontOverride(pixelmojiFont); // 💚
