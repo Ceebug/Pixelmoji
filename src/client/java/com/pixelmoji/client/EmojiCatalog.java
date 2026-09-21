@@ -89,7 +89,18 @@ final class EmojiCatalog {
 			new Emoji("🙃", "Upside-down face"),
 			new Emoji("🫠", "Melting face"),
 			new Emoji("😉", "Winking face"),
-			new Emoji("😇", "Smiling face with halo")
+			new Emoji("😇", "Smiling face with halo"),
+			new Emoji("🐈", "Cat"),
+			new Emoji("🐈‍⬛", "Black cat"),
+			new Emoji("😿", "Crying cat"),
+			new Emoji("😻", "Smiling cat with heart-eyes"),
+			new Emoji("😽", "Kissing cat"),
+			new Emoji("😺", "Grinning cat"),
+			new Emoji("😾", "Pouting cat"),
+			new Emoji("😸", "Grinning cat with smiling eyes"),
+			new Emoji("😹", "Grinning cat with tears of joy"),
+			new Emoji("🙀", "Weary cat"),
+			new Emoji("😼", "Cat with wry smile")
 	};
 
 	static MutableComponent asComponent() {

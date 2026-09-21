@@ -25,17 +25,30 @@ public class PixelmojiClient implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
+		// Register the built-in Pixelmoji resource pack
 		ResourceManagerHelper.registerBuiltinResourcePack(
 				id("pixelmoji"),
 				FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
 				Component.literal("Pixelmoji"),
 				ResourcePackActivationType.ALWAYS_ENABLED
 		);
+
+		// Register /testemojis command
 		ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> dispatcher.register(
-				ClientCommandManager.literal("testemojis").executes(context -> {
-					context.getSource().sendFeedback(EmojiCatalog.asComponent());
-					return 1;
-				})
+			// Description: Displays every emoji in chat for testing purposes.
+			ClientCommandManager.literal("testemojis").executes(context -> {
+				context.getSource().sendFeedback(EmojiCatalog.asComponent());
+				return 1;
+			})
+		));
+
+		// Register /te command as an alias for /testemojis
+		ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> dispatcher.register(
+			// Description: Alias for /testemojis; displays every emoji in chat for testing purposes.
+			ClientCommandManager.literal("te").executes(context -> {
+				context.getSource().sendFeedback(EmojiCatalog.asComponent());
+				return 1;
+			})
 		));
 
 		LOGGER.info("[Pixelmoji] Loading emojis...");
@@ -141,5 +154,24 @@ public class PixelmojiClient implements ClientModInitializer {
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1FAE0).fontOverride(pixelmojiFont); // 🫠
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F609).fontOverride(pixelmojiFont); // 😉
 		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F607).fontOverride(pixelmojiFont); // 😇
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x1F408) // 🐈
+				.codepointOverride(0xE003)
+				.fontOverride(pixelmojiFont);
+		GlomphoscheImpl.LOOKUP
+				.withDiscrete(0x1F408) // 🐈
+				.withDiscrete(0x200D) // ZWJ
+				.withDiscrete(0x2B1B) // ⬛
+				.codepointOverride(0xE004)
+				.fontOverride(pixelmojiFont); // 🐈‍⬛
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63F).fontOverride(pixelmojiFont); // 😿
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63B).fontOverride(pixelmojiFont); // 😻
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63D).fontOverride(pixelmojiFont); // 😽
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63A).fontOverride(pixelmojiFont); // 😺
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63E).fontOverride(pixelmojiFont); // 😾
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F638).fontOverride(pixelmojiFont); // 😸
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F639).fontOverride(pixelmojiFont); // 😹
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F640).fontOverride(pixelmojiFont); // 🙀
+		GlomphoscheImpl.LOOKUP.withDiscrete(0x1F63C).fontOverride(pixelmojiFont); // 😼
 	}
 }

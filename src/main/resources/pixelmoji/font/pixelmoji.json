@@ -701,6 +701,105 @@
             "chars": [
                 "😇"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/cat.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "\uE003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/cat_black.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "\uE004"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/crying.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😿"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/heart_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😻"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/kissing.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😽"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/normal.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😺"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/pouting.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😾"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/smile_eyes.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😸"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/tears_of_joy.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😹"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/weary.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "🙀"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "pixelmoji:animal/face/cat/wry_smile.png",
+            "height": 8,
+            "ascent": 7,
+            "chars": [
+                "😼"
+            ]
         }
     ]
 }

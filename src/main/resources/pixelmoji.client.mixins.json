@@ -2,7 +2,8 @@
 	"required": true,
 	"package": "com.pixelmoji.client.mixin",
 	"client": [
-		"EditBoxMixin"
+		"EditBoxMixin",
+		"FontManagerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

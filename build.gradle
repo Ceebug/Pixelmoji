@@ -17,6 +17,22 @@ repositories {
 	}
 }
 
+import com.sun.management.OperatingSystemMXBean 
+import java.lang.management.ManagementFactory
+
+def getRecommendedRam() {
+	def os = ManagementFactory.getOperatingSystemMXBean() as OperatingSystemMXBean
+	def totalRamGb = os.getTotalMemorySize() / (1024L * 1024L * 1024L) 
+	
+	// Pick a sensible amount of RAM based on the total RAM of the system.
+	if (totalRamGb <= 4) return "2G" 
+	if (totalRamGb <= 8) return "3G" 
+	if (totalRamGb <= 12) return "4G" 
+	if (totalRamGb <= 16) return "6G" 
+	if (totalRamGb <= 24) return "8G" 
+	return "10G"
+}
+
 loom {
 	splitEnvironmentSourceSets()
 
@@ -32,18 +48,34 @@ loom {
 			configName = "Fabric Client"
         	vmArgs "-Dmixin.debug.verbose=true"
         	vmArgs "-Dmixin.debug.export=true"
+			vmArgs "-Xmx${getRecommendedRam()}" // Get the recommended RAM from the getRecommendedRam() function
 			runDir "run"
 		}
 	}
 }
 
 dependencies {
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings loom.officialMojangMappings()
+	// Required dependencies for the mod itself, will be dependencies of the mod when built
+		// You must have the game itself
+			minecraft "com.mojang:minecraft:${project.minecraft_version}" // Minecraft 1.21.10
+		// You must also have fabric loader and have installed it correctly
+			mappings loom.officialMojangMappings() // Fabric loader mappings for Minecraft 1.21.10
+			modImplementation "net.fabricmc:fabric-loader:${project.loader_version}" // Fabric loader ${project.loader_version} for Minecraft 1.21.10
+		// You must also have Glomphosche 0.2.1 and Fabric API installed
+			modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}" // Fabric API ${project.fabric_api_version} for Minecraft 1.21.10
+			modImplementation "maven.modrinth:n48fBTaW:F8JNVUET" // Glomphosche 0.2.1 for Minecraft 1.21.10
 
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	modImplementation "maven.modrinth:n48fBTaW:F8JNVUET"
+	// Mods added for the development client, will not be dependencies of the mod when built
+		// Performance mods because we need performance
+			modLocalRuntime "maven.modrinth:5ZwdcRci:9hztj0xA" // ImmediatelyFast for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:gvQqBUqZ:NsswKiwi" // Lithium for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:uXXizFIs:bPLllEgi" // FerriteCore for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:AANobbMI:sFfidWgd" // Sodium for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:2ecVyZ49:sML1jQ1B" // Ksyxis for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:ONZm0H7Y:r4ORW6Zs" // Better Block Entities for Minecraft 1.21.10
+			modLocalRuntime "maven.modrinth:5CTSrY8X:dV5wJGOp" // GPUBooster for Minecraft 1.21.10
+		// Fabric deserves a menu for mods, this can also be used to test that the mod correctly shows up in Mod Menu
+			modLocalRuntime "maven.modrinth:mOgUt4GM:pYbFlVtR" // Mod Menu for Minecraft 1.21.10
 }
 
 processResources {
@@ -60,8 +92,6 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 java {
-	withSourcesJar()
-
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
 }
@@ -69,6 +99,9 @@ java {
 jar {
 	def projectName = project.name
 	inputs.property "projectName", projectName
+
+	// Set the name of the output jar file to the pixelmoji jar naming convention
+	archiveFileName = "pixelmoji_v${project.version}+mc1.21.10-fabric.jar"
 
 	from("LICENSE") {
 		rename { "${it}_$projectName" }

@@ -83,3 +83,14 @@
 - `🫠` Melting face
 - `😉` Winking face
 - `😇` Smiling face with halo
+- `🐈` Cat
+- `🐈‍⬛` Black cat
+- `😿` Crying cat
+- `😻` Smiling cat with heart-eyes
+- `😽` Kissing cat
+- `😺` Grinning cat
+- `😾` Pouting cat
+- `😸` Grinning cat with smiling eyes
+- `😹` Grinning cat with tears of joy
+- `🙀` Weary cat
+- `😼` Cat with wry smile
