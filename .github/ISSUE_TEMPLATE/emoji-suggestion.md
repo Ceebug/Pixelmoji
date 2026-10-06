@@ -2,8 +2,9 @@
 name: Emoji Suggestion
 about: Suggest an emoji to be added
 title: ''
-labels: ''
+labels: emoji suggestion
 assignees: ''
+type: Feature
 
 ---
 
