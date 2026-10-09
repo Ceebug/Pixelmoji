@@ -1,7 +1,6 @@
 name: "🐛 Bug Report"
 description: "File a structured bug report for the project."
 type: bug
-labels: ["bug"]
 body:
   - type: textarea
     id: bug-description
