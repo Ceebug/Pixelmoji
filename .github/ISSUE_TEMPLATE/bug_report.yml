@@ -1,6 +1,5 @@
 name: "🐛 Bug Report"
 description: "File a structured bug report for the project."
-title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: textarea
@@ -16,7 +15,7 @@ body:
     id: expected-behaviour
     attributes:
       label: "What is the expected behaviour?"
-      description: "Tell us what should have happened instead if the code was working perfectly."
-      placeholder: "e.g. The profile picture should stay visible and open the context menu..."
+      description: "Describe what the application should do when functioning correctly."
+      placeholder: "e.g. The profile picture should remain visible and open the context menu..."
     validations:
       required: true
