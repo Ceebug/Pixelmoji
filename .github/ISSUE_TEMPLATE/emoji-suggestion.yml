@@ -1,6 +1,5 @@
-name: "✨ Emoji Suggestion"
-description: "Suggest an emoji to be added to the platform."
-title: "[Emoji Suggestion]: "
+name: "😀 Emoji Suggestion"
+description: "Suggest a new emoji to be added to the platform."
 labels: ["feature request", "emoji suggestion"]
 body:
   - type: textarea
