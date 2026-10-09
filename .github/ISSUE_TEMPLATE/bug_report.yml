@@ -5,17 +5,17 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: "What is the bug?"
-      description: "Provide a clear and concise description of what the bug is and what currently happens."
-      placeholder: "e.g. When I click the button, the profile picture disappears..."
+      label: "What is the texture or rendering bug?"
+      description: "Provide a clear description of what is visually broken and what currently happens in-game."
+      placeholder: "e.g. The emoji has a black background instead of being transparent, or turns into a missing texture block..."
     validations:
       required: true
 
   - type: textarea
     id: expected-behaviour
     attributes:
-      label: "What is the expected behaviour?"
-      description: "Describe what the application should do when functioning correctly."
-      placeholder: "e.g. The profile picture should remain visible and open the context menu..."
+      label: "What is the expected behavior?"
+      description: "Describe what the emoji texture should look like when rendering correctly."
+      placeholder: "e.g. The texture should render as a crisp flat image with complete transparency around the edges..."
     validations:
       required: true
