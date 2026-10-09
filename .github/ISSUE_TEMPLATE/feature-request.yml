@@ -1,0 +1,39 @@
+name: "💡 Feature Request"
+description: Suggest an idea or enhancement for this project
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: feature_desc
+    attributes:
+      label: "What feature do you want?"
+      description: Explain what you want to happen and how it should work.
+      placeholder: "Describe your idea here..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_why
+    attributes:
+      label: "Why do you want this?"
+      description: Explain the problem it solves or why this would be useful.
+      placeholder: "Tell us the benefit or reason..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: Drag and drop or paste images, mockups, or wireframes here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "How might this be incorporated? (Optional)"
+      description: If you have technical ideas, code suggestions, or design concepts on how to build it, share them here.
+      placeholder: "Suggested technical approach, API endpoints, UI placement, etc..."
+    validations:
+      required: false
