@@ -1,12 +1,13 @@
 name: "🐛 Bug Report"
 description: "File a structured bug report for the project."
+type: bug
 labels: ["bug"]
 body:
   - type: textarea
     id: bug-description
     attributes:
-      label: "What is the texture or rendering bug?"
-      description: "Provide a clear description of what is visually broken and what currently happens in-game."
+      label: "What is the bug?"
+      description: "Provide a clear description of what the bug is."
       placeholder: "e.g. The emoji has a black background instead of being transparent, or turns into a missing texture block..."
     validations:
       required: true
@@ -15,7 +16,7 @@ body:
     id: expected-behaviour
     attributes:
       label: "What is the expected behavior?"
-      description: "Describe what the emoji texture should look like when rendering correctly."
+      description: "Describe what should be happening."
       placeholder: "e.g. The texture should render as a crisp flat image with complete transparency around the edges..."
     validations:
       required: true
