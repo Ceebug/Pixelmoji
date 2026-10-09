@@ -1,0 +1,21 @@
+name: "😀 Emoji Suggestion"
+description: "Suggest a new emoji to be added to the platform."
+labels: ["feature request", "emoji suggestion"]
+body:
+  - type: textarea
+    id: emoji-suggestion-field
+    attributes:
+      label: "What emoji would you like to see added?"
+      description: "Please provide the name of the emoji and paste the character itself if available."
+      placeholder: "e.g. Full Moon Face - 🌝"
+    validations:
+      required: true
+
+  - type: textarea
+    id: texture-upload-field
+    attributes:
+      label: "Do you have a custom texture or sprite for this emoji? (Optional)"
+      description: "If you have a design ready, please drag and drop or upload your texture asset here. It must be a flat style, sized at exactly 16x16 or 8x8 pixels."
+      placeholder: "Paste or drop your 16x16 or 8x8 flat texture file here..."
+    validations:
+      required: false
