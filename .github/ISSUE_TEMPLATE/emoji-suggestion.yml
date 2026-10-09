@@ -1,0 +1,13 @@
+name: "✨ Emoji Suggestion"
+description: "Suggest an emoji to be added to the platform."
+title: "[Emoji Suggestion]: "
+labels: ["feature request", "emoji suggestion"]
+body:
+  - type: textarea
+    id: emoji-suggestion-field
+    attributes:
+      label: "Which emoji do you want added?"
+      description: "Provide the name of the emoji you want to be added and a copy and paste of the emoji."
+      placeholder: "e.g. Smiling face - 🌝"
+    validations:
+      required: true
