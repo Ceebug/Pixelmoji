@@ -66,4 +66,7 @@ If you would like to view the supported emojis, you can see them in the file:<br
 
 
 ## Licence:
-Pixelmoji is open source. See [`LICENCE`](./LICENCE) for license information.
+## Licence:
+
+* **Code:** Open source under the terms of the [MIT Licence](LICENCE).
+* **Artwork & Icons:** Free to use *except* for commercial sales, malicious hacks, or scams. See the [Artwork Licence](LICENCE-ARTWORK) for rules on using our logo and emoji textures.
