@@ -68,4 +68,4 @@ If you would like to view the supported emojis, you can see them in the file:<br
 ## Licence:
 
 * **Code:** Open source under the terms of the [MIT Licence](LICENCE).
-* **Artwork & Icons:** Free to use *except* for commercial sales, malicious hacks, or scams. See the [Artwork Licence](LICENCE-ARTWORK) for rules on using the logo and emoji textures.
+* **Artwork & Icons:** Free to use *except* for commercial sales, malicious hacks, or scams. See the [Artwork Licence](LICENCE-ARTWORK) for rules on using the logo textures.
