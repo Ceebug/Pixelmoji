@@ -2,7 +2,7 @@ PIXELMOJI BRAND ASSET LICENSE
 
 Copyright (c) 2026 Ceebug
 
-The source code and in-game emoji texture files of this project are open source under the terms of the MIT License. This License governs exclusively the official project branding assets (collectively, the "Brand Assets"), including the "Pixelmoji" name, logotype layouts, and the official title graphics.
+The source code and in-game emoji texture files of this project are open source under the terms of the MIT License. This License governs exclusively the official project branding assets (collectively, the "Brand Assets"), including the official project logotype graphics, title assets, banner layouts, and repository image files. Underlying source code text, package pathways, and internal project dependencies are expressly excluded from the definition of Brand Assets.
 
 Subject to the terms and conditions of this License, permission is hereby granted to any person to use and display the Brand Assets solely for non-commercial promotional, review, or community informational purposes.
 
@@ -12,7 +12,7 @@ This permission is strictly subject to the following express conditions:
 
 2. FRAUD AND MALICIOUS USE PROHIBITION. The Brand Assets shall not be used in connection with any software, distribution platform, repository, or service configured for malicious activity, phishing, or user deception. 
 
-3. DERIVATIVE WORKS AND FORKS. If the underlying software repository is forked, modified, or redistributed to create an alternative variant, client, engine, or tool that incorporates hacks, exploits, or cheats, all Brand Assets (including the project name "Pixelmoji" and official logo banners) must be completely removed from the file structure, distribution packages, and user interfaces prior to distribution.
+3. DERIVATIVE WORKS AND FORKS. If the underlying software repository is forked, modified, or redistributed to create an alternative variant, client, engine, or tool that incorporates hacks, exploits, or cheats, all visual Brand Assets (including the official logo banners and title image files) must be completely removed from the file structure, distribution packages, and visual user interfaces prior to distribution. This restriction applies strictly to the graphical assets and does not prohibit the inclusion of the project name within raw source code strings or compilation configuration metadata.
 
 4. NO IMPLIED ENDORSEMENT. Use of the Brand Assets does not grant permission to imply an official endorsement, partnership, or affiliation with the original Pixelmoji project or its maintainers.
 
